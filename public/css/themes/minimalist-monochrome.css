@@ -1,0 +1,196 @@
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f7f7f7; /* Light Gray */
+    color: #333; /* Dark Gray */
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #222; /* Dark Gray */
+    border-bottom: 2px solid #999; /* Light Gray Border */
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f7f7f7; /* Light Gray */
+}
+
+.nav-link {
+    color: #f7f7f7; /* Light Gray */
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #999; /* Light Gray Hover */
+}
+
+/* Header Section */
+.header-overlay {
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+    background-color: #333; /* Dark Gray Background */
+}
+
+.portfolio-header h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: #f7f7f7; /* Light Gray */
+}
+
+.portfolio-header p {
+    font-size: 1.5rem;
+    color: #999; /* Light Gray */
+}
+
+/* Section Title */
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #333; /* Dark Gray */
+}
+
+/* About Section */
+#about {
+    padding: 60px 0;
+    background-color: #f7f7f7; /* Light Gray */
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #555; /* Medium Gray */
+}
+
+/* Skills Section */
+#skills {
+    padding: 60px 0;
+    background-color: #333; /* Dark Gray */
+}
+
+.skill-card {
+    background-color: #555; /* Medium Gray */
+    border: 1px solid #999; /* Light Gray Border */
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    color: #f7f7f7; /* Light Gray Text */
+}
+
+.skill-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(51, 51, 51, 0.3); /* Dark Gray Shadow */
+}
+
+/* Projects Section */
+#projects {
+    padding: 60px 0;
+    background-color: #f7f7f7; /* Light Gray */
+}
+
+.project-card {
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #555; /* Medium Gray */
+    border: 1px solid #999; /* Light Gray Border */
+    color: #f7f7f7; /* Light Gray */
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(85, 85, 85, 0.4); /* Medium Gray Shadow */
+}
+
+#projects .project-image {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Experience Section */
+.list-group-item {
+    font-size: 1.1rem;
+    background-color: #555; /* Medium Gray */
+    border: 1px solid #999; /* Light Gray Border */
+    transition: background 0.3s;
+    color: #f7f7f7; /* Light Gray Text */
+}
+
+.list-group-item:hover {
+    background-color: #333; /* Dark Gray */
+    color: #f7f7f7; /* Light Gray */
+}
+
+/* Testimonials Section */
+blockquote {
+    border-left: 4px solid #999; /* Light Gray Border */
+    padding-left: 20px;
+    background-color: #555; /* Medium Gray */
+    color: #f7f7f7; /* Light Gray */
+    margin: 20px 0;
+}
+
+/* Contact Section */
+.form-control {
+    border-radius: 5px;
+    background-color: #555; /* Medium Gray */
+    color: #f7f7f7; /* Light Gray */
+    border: 1px solid #999; /* Light Gray Border */
+}
+
+.btn-primary {
+    background-color: #333; /* Dark Gray */
+    border: none;
+    color: #f7f7f7; /* Light Gray */
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #999; /* Light Gray */
+}
+
+/* Footer */
+.footer {
+    background-color: #222; /* Dark Gray Footer */
+    color: #f7f7f7; /* Light Gray */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #f7f7f7; /* Light Gray */
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #999; /* Light Gray Hover */
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #333; /* Dark Gray */
+    border: none;
+    color: #f7f7f7; /* Light Gray */
+    border-radius: 5px;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+.back-to-top.show {
+    display: block;
+}
+
+.back-to-top:hover {
+    background-color: #999; /* Light Gray */
+}

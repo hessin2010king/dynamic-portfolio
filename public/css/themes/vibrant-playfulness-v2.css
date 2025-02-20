@@ -1,0 +1,157 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4; /* Light Gray Background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ff6f61; /* Coral */
+    transition: background-color 0.3s;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    padding: 15px 20px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffe5b4; /* Light Apricot */
+    transform: scale(1.05);
+}
+
+/* Header Section */
+.header-overlay {
+    position: relative;
+    padding: 120px 0;
+    text-align: center;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent Black */
+}
+
+.portfolio-header h1 {
+    font-size: 3.8rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-header p {
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+
+/* About Section */
+#about {
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ff6f61; /* Coral */
+}
+
+/* Skills Section */
+#skills {
+    background-color: #ffffff; /* White */
+    padding: 60px 0;
+}
+
+.skill-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffebcd; /* Blanched Almond */
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Projects Section */
+#projects .project-card {
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #fff;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#projects .project-image {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Experience Section */
+.list-group-item {
+    font-size: 1.2rem;
+    background-color: #ffebcd; /* Blanched Almond */
+    color: #333;
+}
+
+/* Testimonials Section */
+blockquote {
+    border-left: 5px solid #ff6f61; /* Coral */
+    padding-left: 15px;
+    margin: 20px 0;
+    background-color: #fff; /* White */
+    color: #333;
+}
+
+/* Contact Section */
+.form-control {
+    border-radius: 10px;
+    background-color: #ffffff; /* White */
+    color: #333;
+    border: 1px solid #ddd; /* Light Gray Border */
+}
+
+.btn-primary {
+    background-color: #ff6f61; /* Coral */
+    border: none;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #ff4757; /* Bright Red */
+}
+
+/* Footer */
+.footer {
+    background-color: #ff6f61; /* Coral */
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #ff6f61; /* Coral */
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.back-to-top.show {
+    display: block;
+}

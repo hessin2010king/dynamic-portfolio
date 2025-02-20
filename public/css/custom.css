@@ -1,0 +1,149 @@
+/* Custom.css  */
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.background-image-container {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-header h1 {
+    font-size: 4rem;
+    animation-duration: 1s;
+    color: #fff;
+}
+
+.portfolio-header p {
+    font-size: 1.25rem;
+    animation-duration: 1.5s;
+    color: #fff;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 30px; /* Updated for consistent spacing */
+    color: #333;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.skill-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.skill-card .progress {
+    height: 0.5rem;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.footer {
+    margin: 0;
+    background-color: #343a40;
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%; /* Rounded button */
+    font-size: 1.5rem; /* Increased icon size */
+}
+
+.social-icons a {
+    font-size: 24px; /* Increase the icon size */
+    width: 48px; /* Set a width for uniform button size */
+    height: 48px; /* Set a height for uniform button size */
+    display: inline-flex; /* Center icon inside the button */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+.social-icons a:hover {
+    background-color: #007bff; /* Change background on hover */
+    color: #fff; /* Change icon color on hover */
+}
+
+.social-icons a .fab {
+    margin: 0; /* Remove margin around the icon */
+}

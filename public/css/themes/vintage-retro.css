@@ -1,0 +1,195 @@
+/* Global Styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f7e8d0; /* Light Beige */
+    color: #3c2f2f; /* Dark Brown */
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #6a4b3a; /* Dark Brown Navbar */
+    border-bottom: 4px solid #d4a373; /* Vintage Gold Border */
+}
+
+.navbar-brand {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #f7e8d0; /* Light Beige Text */
+}
+
+.nav-link {
+    color: #f7e8d0; /* Light Beige Text */
+    padding: 15px 20px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #d4a373; /* Vintage Gold Hover */
+}
+
+/* Header Section */
+.header-overlay {
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+    background: url('retro-header.jpg') no-repeat center center/cover; /* Vintage Patterned Background */
+}
+
+.portfolio-header h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #6a4b3a; /* Dark Brown */
+}
+
+.portfolio-header p {
+    font-size: 1.8rem;
+    margin-top: 10px;
+    color: #d4a373; /* Vintage Gold */
+}
+
+/* Section Title */
+.section-title {
+    font-size: 2.8rem;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #d4a373; /* Vintage Gold */
+}
+
+/* About Section */
+#about {
+    padding: 60px 0;
+    background-color: #f5deb3; /* Wheat Background */
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #3c2f2f; /* Dark Brown */
+}
+
+/* Skills Section */
+#skills {
+    padding: 60px 0;
+    background-color: #f7e8d0; /* Light Beige Background */
+}
+
+.skill-card {
+    background-color: #d4a373; /* Vintage Gold */
+    border: 4px solid #6a4b3a; /* Dark Brown Border */
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.skill-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(106, 75, 58, 0.4); /* Dark Brown Shadow */
+}
+
+/* Projects Section */
+#projects {
+    padding: 60px 0;
+    background-color: #f5deb3; /* Wheat Background */
+}
+
+.project-card {
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #d4a373; /* Vintage Gold */
+    border: 4px solid #6a4b3a; /* Dark Brown Border */
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(212, 163, 115, 0.4); /* Gold Shadow */
+}
+
+#projects .project-image {
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Experience Section */
+.list-group-item {
+    font-size: 1.2rem;
+    background-color: #d4a373; /* Vintage Gold */
+    border: 3px solid #6a4b3a; /* Dark Brown Border */
+    transition: background 0.3s;
+    color: #3c2f2f; /* Dark Brown Text */
+}
+
+.list-group-item:hover {
+    background-color: #6a4b3a; /* Dark Brown */
+    color: #f7e8d0; /* Light Beige */
+}
+
+/* Testimonials Section */
+blockquote {
+    border-left: 5px solid #6a4b3a; /* Dark Brown Border */
+    padding-left: 20px;
+    background-color: #d4a373; /* Vintage Gold */
+    color: #3c2f2f; /* Dark Brown */
+    margin: 25px 0;
+}
+
+/* Contact Section */
+.form-control {
+    border-radius: 5px;
+    background-color: #d4a373; /* Vintage Gold */
+    color: #3c2f2f; /* Dark Brown */
+    border: 3px solid #6a4b3a; /* Dark Brown Border */
+}
+
+.btn-primary {
+    background-color: #6a4b3a; /* Dark Brown */
+    border: none;
+    color: #f7e8d0; /* Light Beige */
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #d4a373; /* Vintage Gold */
+}
+
+/* Footer */
+.footer {
+    background-color: #6a4b3a; /* Dark Brown Footer */
+    color: #f7e8d0; /* Light Beige */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #f7e8d0; /* Light Beige Text */
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #d4a373; /* Vintage Gold */
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #6a4b3a; /* Dark Brown */
+    border: none;
+    color: #f7e8d0; /* Light Beige */
+    border-radius: 5px;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+.back-to-top.show {
+    display: block;
+}
+
+.back-to-top:hover {
+    background-color: #d4a373; /* Vintage Gold */
+}

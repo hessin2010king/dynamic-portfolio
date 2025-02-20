@@ -1,0 +1,223 @@
+/* Global Styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #000; /* Black Background */
+    color: #fff; /* White Text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+}
+
+/* Navbar */
+.navbar {
+    background-color: #121212; /* Dark Background */
+    border-bottom: 2px solid #00ffcc; /* Neon Aqua Border */
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff00ff; /* Neon Pink */
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+}
+
+.nav-link {
+    color: #fff;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+    text-shadow: 0 0 5px #fff;
+}
+
+.nav-link:hover {
+    color: #00ffcc; /* Neon Aqua Hover */
+    text-shadow: 0 0 10px #00ffcc;
+}
+
+/* Header Section */
+.header-overlay {
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+    background: radial-gradient(circle at center, #1a1a1a, #000);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.portfolio-header h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: #00ffcc; /* Neon Aqua */
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+
+.portfolio-header p {
+    font-size: 1.8rem;
+    color: #ff00ff; /* Neon Pink */
+    text-shadow: 0 0 10px #ff00ff, 0 0 15px #ff00ff;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff;
+}
+
+/* About Section */
+#about {
+    padding: 60px 0;
+    background-color: #000;
+    border-bottom: 2px solid #ff00ff; /* Neon Pink Border */
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #00ffcc;
+    text-shadow: 0 0 5px #00ffcc;
+}
+
+/* Skills Section */
+#skills {
+    padding: 60px 0;
+    background-color: #121212; /* Dark Background */
+    border-bottom: 2px solid #00ffcc; /* Neon Aqua Border */
+}
+
+.skill-card {
+    background-color: #1a1a1a;
+    border: 2px solid #ff00ff; /* Neon Pink Border */
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    color: #00ffcc; /* Neon Aqua */
+    font-weight: bold;
+    text-shadow: 0 0 5px #00ffcc;
+}
+
+.skill-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px #ff00ff, 0 0 25px #ff00ff; /* Neon Pink Glow */
+}
+
+/* Projects Section */
+#projects {
+    padding: 60px 0;
+    background-color: #000;
+}
+
+.project-card {
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #1a1a1a;
+    border: 2px solid #00ffcc; /* Neon Aqua Border */
+    color: #ff00ff; /* Neon Pink Text */
+    text-shadow: 0 0 5px #ff00ff;
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px #00ffcc, 0 0 25px #00ffcc; /* Neon Aqua Glow */
+}
+
+#projects .project-image {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Experience Section */
+.list-group-item {
+    font-size: 1.1rem;
+    background-color: #121212;
+    border: 2px solid #ff00ff; /* Neon Pink Border */
+    transition: background 0.3s ease;
+    color: #00ffcc; /* Neon Aqua */
+    text-shadow: 0 0 5px #00ffcc;
+}
+
+.list-group-item:hover {
+    background-color: #1a1a1a;
+    color: #ff00ff; /* Neon Pink Hover */
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+/* Testimonials Section */
+blockquote {
+    border-left: 5px solid #00ffcc; /* Neon Aqua */
+    padding-left: 20px;
+    background-color: #121212;
+    color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff;
+}
+
+/* Contact Section */
+.form-control {
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #00ffcc; /* Neon Aqua */
+    border: 2px solid #ff00ff; /* Neon Pink Border */
+    text-shadow: 0 0 5px #00ffcc;
+}
+
+.btn-primary {
+    background-color: #ff00ff; /* Neon Pink */
+    border: none;
+    color: #00ffcc; /* Neon Aqua */
+    text-shadow: 0 0 5px #00ffcc;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #00ffcc; /* Neon Aqua Hover */
+    color: #ff00ff; /* Neon Pink */
+}
+
+/* Footer */
+.footer {
+    background-color: #121212;
+    color: #ff00ff; /* Neon Pink */
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid #00ffcc; /* Neon Aqua Border */
+    text-shadow: 0 0 5px #ff00ff;
+}
+
+.footer a {
+    color: #ff00ff; /* Neon Pink */
+    transition: color 0.3s ease;
+    text-shadow: 0 0 5px #ff00ff;
+}
+
+.footer a:hover {
+    color: #00ffcc; /* Neon Aqua Hover */
+    text-shadow: 0 0 10px #00ffcc;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #ff00ff; /* Neon Pink */
+    border: none;
+    color: #00ffcc; /* Neon Aqua */
+    border-radius: 5px;
+    padding: 10px;
+    text-shadow: 0 0 5px #00ffcc;
+    transition: background 0.3s ease;
+}
+
+.back-to-top.show {
+    display: block;
+}
+
+.back-to-top:hover {
+    background-color: #00ffcc; /* Neon Aqua Hover */
+    color: #ff00ff; /* Neon Pink */
+}

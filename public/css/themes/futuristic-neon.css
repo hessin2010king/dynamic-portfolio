@@ -1,0 +1,201 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #111; /* Dark background */
+    color: #fff; /* White text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #222; /* Darker background */
+    border-bottom: 3px solid #0ff; /* Neon cyan border */
+}
+
+.navbar-brand {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #0ff; /* Neon cyan */
+}
+
+.nav-link {
+    color: #0ff; /* Neon cyan */
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #f0f; /* Neon purple */
+}
+
+/* Header Section */
+.header-overlay {
+    position: relative;
+    padding: 120px 0;
+    text-align: center;
+    background: linear-gradient(135deg, #0ff 30%, #f0f 70%);
+    color: #fff;
+}
+
+.portfolio-header h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.portfolio-header p {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 2.8rem;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #0ff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+}
+
+/* About Section */
+#about {
+    padding: 70px 0;
+    background-color: #1a1a1a;
+    border-bottom: 3px solid #f0f;
+}
+
+#about p {
+    font-size: 1.3rem;
+    color: #ddd;
+}
+
+/* Skills Section */
+#skills {
+    padding: 70px 0;
+    background-color: #111;
+    border-bottom: 3px solid #0ff;
+}
+
+.skill-card {
+    background-color: #222;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    color: #0ff;
+}
+
+.skill-card:hover {
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+}
+
+/* Projects Section */
+#projects {
+    padding: 70px 0;
+    background-color: #1a1a1a;
+}
+
+.project-card {
+    background-color: #222;
+    border: 1px solid #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    color: #0ff;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+}
+
+#projects .project-image {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Experience Section */
+.list-group-item {
+    font-size: 1.2rem;
+    background-color: #222;
+    border: 1px solid #333;
+    color: #f0f;
+}
+
+.list-group-item:hover {
+    background-color: #111;
+}
+
+/* Testimonials Section */
+blockquote {
+    border-left: 4px solid #0ff;
+    padding-left: 20px;
+    background-color: #222;
+    color: #ddd;
+}
+
+/* Contact Section */
+.form-control {
+    border-radius: 5px;
+    background-color: #333;
+    color: #0ff;
+    border: 1px solid #444;
+}
+
+.btn-primary {
+    background-color: #0ff;
+    border: none;
+    color: #111;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #f0f;
+}
+
+/* Footer */
+.footer {
+    background-color: #111;
+    color: #0ff;
+    padding: 30px 0;
+    text-align: center;
+    border-top: 3px solid #f0f;
+}
+
+.footer a {
+    color: #0ff;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #f0f;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #0ff;
+    border: none;
+    color: #111;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background 0.3s ease;
+}
+
+.back-to-top.show {
+    display: block;
+}
+
+.back-to-top:hover {
+    background-color: #f0f;
+}

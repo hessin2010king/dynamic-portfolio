@@ -1,0 +1,156 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f0f0f0; /* Light Gray Background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ff5722; /* Bright Orange */
+    transition: background-color 0.3s;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    padding: 15px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #e64a19; /* Darker Orange */
+    transform: scale(1.05);
+}
+
+/* Header Section */
+.header-overlay {
+    position: relative;
+    padding: 120px 0;
+    text-align: center;
+    background: rgba(255, 87, 34, 0.8); /* Semi-transparent Bright Orange */
+    color: #ffffff;
+}
+
+.portfolio-header h1 {
+    font-size: 4rem;
+    margin: 0;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-header p {
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+
+/* About Section */
+#about {
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ff5722; /* Bright Orange */
+}
+
+/* Skills Section */
+#skills {
+    background-color: #ffffff; /* White Background */
+    padding: 60px 0;
+}
+
+.skill-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Projects Section */
+#projects .project-card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#projects .project-image {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Experience Section */
+.list-group-item {
+    font-size: 1.2rem;
+    background-color: #ffe0b2; /* Light Orange */
+    color: #333;
+}
+
+/* Testimonials Section */
+blockquote {
+    border-left: 5px solid #ff5722; /* Bright Orange */
+    padding-left: 15px;
+    margin: 20px 0;
+    background-color: #fff3e0; /* Light Cream */
+    color: #333;
+}
+
+/* Contact Section */
+.form-control {
+    border-radius: 5px;
+    background-color: #ffffff; /* White */
+    color: #333;
+    border: 1px solid #ff5722; /* Bright Orange */
+}
+
+.btn-primary {
+    background-color: #ff5722; /* Bright Orange */
+    border: none;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #e64a19; /* Darker Orange */
+}
+
+/* Footer */
+.footer {
+    background-color: #ff5722; /* Bright Orange */
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #ff5722; /* Bright Orange */
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.back-to-top.show {
+    display: block;
+}

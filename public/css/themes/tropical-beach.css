@@ -1,0 +1,195 @@
+/* Global Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #e0f7fa; /* Light Blue Beach Sky */
+    color: #2d3436; /* Dark Text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #26a69a; /* Teal Navbar */
+    border-bottom: 2px solid #ffcc80; /* Sand Yellow Border */
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff; /* White Text */
+}
+
+.nav-link {
+    color: #ffffff; /* White Text */
+    padding: 15px 20px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffcc80; /* Sand Yellow */
+}
+
+/* Header Section */
+.header-overlay {
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+    background: url('tropical-header.jpg') no-repeat center center/cover; /* Tropical Beach Background */
+}
+
+.portfolio-header h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #26a69a; /* Teal */
+}
+
+.portfolio-header p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #ff7043; /* Coral Orange */
+}
+
+/* Section Title */
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #ff7043; /* Coral Orange */
+}
+
+/* About Section */
+#about {
+    padding: 60px 0;
+    background-color: #ffffff; /* White Background */
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #2d3436; /* Dark Text */
+}
+
+/* Skills Section */
+#skills {
+    padding: 60px 0;
+    background-color: #b2dfdb; /* Pale Teal Background */
+}
+
+.skill-card {
+    background-color: #ffcc80; /* Sand Yellow */
+    border: 2px solid #26a69a; /* Teal Border */
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+}
+
+.skill-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 20px rgba(38, 166, 154, 0.5); /* Teal Shadow */
+}
+
+/* Projects Section */
+#projects {
+    padding: 60px 0;
+    background-color: #ffffff; /* White Background */
+}
+
+.project-card {
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #ffcc80; /* Sand Yellow */
+    border: 2px solid #26a69a; /* Teal Border */
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 20px rgba(255, 204, 128, 0.5); /* Sand Shadow */
+}
+
+#projects .project-image {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Experience Section */
+.list-group-item {
+    font-size: 1.1rem;
+    background-color: #ff7043; /* Coral Orange */
+    border: 2px solid #26a69a; /* Teal Border */
+    transition: background 0.3s;
+    color: #ffffff; /* White Text */
+}
+
+.list-group-item:hover {
+    background-color: #26a69a; /* Teal */
+    color: #ffffff; /* White Text */
+}
+
+/* Testimonials Section */
+blockquote {
+    border-left: 4px solid #26a69a; /* Teal Border */
+    padding-left: 15px;
+    background-color: #ffcc80; /* Sand Yellow */
+    color: #2d3436; /* Dark Text */
+    margin: 20px 0;
+}
+
+/* Contact Section */
+.form-control {
+    border-radius: 5px;
+    background-color: #ffcc80; /* Sand Yellow */
+    color: #2d3436; /* Dark Text */
+    border: 2px solid #26a69a; /* Teal Border */
+}
+
+.btn-primary {
+    background-color: #26a69a; /* Teal */
+    border: none;
+    color: #ffffff; /* White Text */
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff7043; /* Coral Orange */
+}
+
+/* Footer */
+.footer {
+    background-color: #26a69a; /* Teal Footer */
+    color: #ffffff; /* White Text */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #ffffff; /* White Text */
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #ff7043; /* Coral Orange */
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #26a69a; /* Teal */
+    border: none;
+    color: #ffffff; /* White Text */
+    border-radius: 5px;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+.back-to-top.show {
+    display: block;
+}
+
+.back-to-top:hover {
+    background-color: #ff7043; /* Coral Orange */
+}
